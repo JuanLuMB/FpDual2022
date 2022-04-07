@@ -24,6 +24,10 @@ public class productos_frecos extends comun {
     }
     public void setQuimicos(String quimicos) {
         Quimicos = quimicos;
+
+
+
+
     }
 
 }

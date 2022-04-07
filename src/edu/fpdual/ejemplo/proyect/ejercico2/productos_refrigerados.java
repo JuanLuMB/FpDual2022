@@ -10,6 +10,7 @@ public class productos_refrigerados extends comun {
     public String getTipo_producto() {
         return Tipo_producto;
     }
+
     public void setTipo_producto(String tipo_producto) {
         Tipo_producto = tipo_producto;
     }

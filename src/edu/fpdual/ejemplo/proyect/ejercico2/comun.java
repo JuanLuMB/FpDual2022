@@ -11,5 +11,6 @@ public class comun {
         System.out.println("El numero de lote de esta tirada es: 6127346347-X");
     }
 
+
 }
 

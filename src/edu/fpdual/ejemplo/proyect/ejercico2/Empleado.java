@@ -12,6 +12,7 @@ public class Empleado {
     public void main(String[] args) {
         clasificacion();
         ImprimirDatos();
+
     }
 
     public void clasificacion() {

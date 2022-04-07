@@ -12,6 +12,7 @@ public class productos_congelados extends comun {
     public void setTipo_congelado(String tipo_congelado) {
         this.tipo_congelado = tipo_congelado;
     }
+
     public String getTipo_producto() {
         return Tipo_producto;
     }

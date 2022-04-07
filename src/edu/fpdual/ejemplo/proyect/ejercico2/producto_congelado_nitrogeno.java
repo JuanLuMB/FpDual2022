@@ -12,6 +12,7 @@ public class producto_congelado_nitrogeno extends productos_congelados {
     public void setCogelado(String cogelado) {
         Cogelado = cogelado;
     }
+
     public String getTemperatura() {
         return Temperatura;
     }

@@ -13,6 +13,7 @@ public class productos {
 
         System.out.println();
 
+
         productos_refrigerados producto_R = new productos_refrigerados();
         System.out.println("Productos refrigerado :");
         System.out.println("Alimento: "+producto_R.getTipo_producto());

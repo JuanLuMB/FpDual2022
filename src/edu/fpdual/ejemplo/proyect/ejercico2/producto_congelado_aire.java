@@ -12,6 +12,7 @@ public class producto_congelado_aire extends productos_congelados {
     public void setCongelado(String cogelado) {
         Congelado = cogelado;
     }
+
     public String getTemperatura() {
         return Temperatura;
     }
