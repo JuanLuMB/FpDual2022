@@ -2,11 +2,11 @@ package edu.fpdual.ejemplo.proyect.ejercicios;
 
 public class cliente{
 
-    private static String NomEmpresa = "Paquito S.L";
+    public static String NomEmpresa = "Paquito S.L";
 
-    private static  int numeroTrabajadores = 10000;
+    public static  int numeroTrabajadores = 10000;
 
-    private static  String localizacion = "Ruanda";
+    public static  String localizacion = "Ruanda";
 
 
 
@@ -24,9 +24,15 @@ public class cliente{
     }
 
 
-
     public static void setNomEmpresa(String nomEmpresa) {
         NomEmpresa = nomEmpresa;
     }
 
+    public static int getNumeroTrabajadores() {
+        return numeroTrabajadores;
+    }
+
+    public static void setNumeroTrabajadores(int numeroTrabajadores) {
+        cliente.numeroTrabajadores = numeroTrabajadores;
+    }
 }
